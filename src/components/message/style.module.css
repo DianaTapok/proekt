@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat {
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+   border-radius: 15px;
+    background-color: rgba(110, 104, 104, 0.822);
+    font-size: 20px;
+    font-weight: 600;
+}
+.chat2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+.text {
+    margin-left: 7px;
+}
+.button2 {
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 10px;
+    margin-top: 5px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	color: rgb(53, 53, 53);
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+}
+
+.button2:hover {
+	background-color: #e75752a2;
+}
+.button2:active {
+	transform: scale(0.96);
+}
+.button2:disabled {
+	pointer-events: none;
+    opacity: 0.65;
+}
+
+
+
+.button1 {
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 10px;
+    margin-top: 10px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	color: rgb(53, 53, 53);
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+}
+
+.button1:hover {
+	background-color: #9cf14da2;
+}
+.button1:active {
+	transform: scale(0.96);
+}
+.button1:disabled {
+	pointer-events: none;
+    opacity: 0.65;
+}
+.com {
+  margin-top: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}

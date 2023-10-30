@@ -1,0 +1,16 @@
+.text {
+    margin-bottom: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    
+}
+.container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.api {
+    font-size: 15px;
+    font-weight: 500;
+}
